@@ -9,16 +9,16 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
 </head>
 <body class="body row m-0">
     <nav id="navbar" class="bg-nav shadow text-paltet">
         <div class="row m-0 align-items-center">
-            <div class="col-1"><img src="Image/Kambakht.png" class="img-fluid w-50 m-3 shadow logo pointer" alt="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></div>
+            <div class="col-1"><h1 class="m-3 shadow pointer text-center menubtn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" onclick="rotate(event)">☰</h1></div>
             <div class="col-3 mt-4"><h1>KAMBAKHT</h1></div>
             <div class="col-1"></div>
             <div class="col-6"></div>
             <div class="col-1 mt-4 me-auto" ><a class="btn btn-outline-dark" href="https://www.youtube.com/@kambakht2023/featured">Channel</a></div>
+
         </div>
     </nav>
     <div class="body-height">
@@ -111,5 +111,14 @@
       </div>
     
     <script src="script.js"></script>
+    <div class="container largetext text-center  text-smoothest" id="underConstruction">
+        Site Under cunstruction to give suggestions scan QR <br>
+        <img src="Image/1675492522889.jpg" class="img-fluid w-25" alt="" srcset="">
+        <br>
+        
+        <button class="btn btn-dark" onclick="closepopup()">
+            Continue
+        </button>
+    </div>
 </body>
 </html>

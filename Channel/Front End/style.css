@@ -1,7 +1,3 @@
-.logo{
-    border-radius: 50%;
-    border: 3px solid #6B4F4F;
-}
 .body{
     background-color: #6B4F4F;
 }
@@ -54,3 +50,14 @@
 .text-smoothest{
     color: #FFF3E4;
 }
+
+#underConstruction{
+    position: absolute;
+    background-color: #2c1f1f;
+    height: 1000px;
+    padding-top: 150px;
+}
+
+  
+  /* The element to apply the animation to */
+

@@ -5,3 +5,6 @@ var SuperDatabase={
         naman:[]
     }
 }
+function closepopup(){
+    document.getElementById('underConstruction').style.display='none'
+}
