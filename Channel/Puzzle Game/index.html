@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bgcolor">
+    <nav id="navbar" class="align-items-center shadow shadow-light text-gold bgcolor">
+      <div class="row m-0">
+        <div class="col-1">
+          <img
+            src="https://www.improvememory.org/wp-content/uploads/2020/11/rubiks-cube-game.png"
+            class="img-fluid w-50 m-3 border"
+            alt=""
+          />
+        </div>
+        <div class="col-3 mt-2"><h1>Super Puzzle</h1></div>
+        <div class="col-1"></div>
+        <div class="col-5"></div>
+        <div class="col-1 mt-4 me-auto">
+           <a class="btn gold" href="index.html"> Restart</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container p-5 shadow shadow-light m-5 gold" id="configTab">
+        <h1 class="text-center">
+            <b>Configration</b>
+        </h1>
+        <div class="row m-0">
+            <div class="col-6 mt-4"><label for="rows"><b>Row and Column Size</b></label></div>
+            <div class="col-6 mt-4"><input type="text" class="form-control bgcolor noborder text-gold" id="size"></div>
+            <div class="col-6 mt-4"><label for="rows"><b>Time Out Limit</b></label></div>
+            <div class="col-6 mt-4"><input type="text" class="form-control bgcolor noborder text-gold" id="time"></div>
+            <div class="col-6 mt-4"><label for="rows"><b>Moves Limit</b></label></div>
+            <div class="col-6 mt-4"><input type="text" class="form-control bgcolor noborder text-gold" id="moves"></div>
+            <div class="col-12 text-center">
+                <button class="btn mt-5 gold" onclick="startGame()">Start The Game</button>
+            </div>
+        </div>
+    </div>
+    <div class="container p-5 shadow shadow-light m-5 gold" id="gameTab">
+        <h1 class="text-center">
+            <b>Game</b>
+        </h1>
+        <div class="row m-0">
+          <div class="col-6"></div>
+          <div class="col-6">
+            <h3 class="text-gold" id="movesShow"></h3>
+            <h3 class="text-gold" id="timeShow"></h3>
+
+          </div>
+        </div>
+        <div class="container bgcolor p-5 text-center">
+            <div class="container mx-auto" id="pieceHolder">
+                
+            </div>
+        </div>
+        <div class="container">
+          <div>
+            <button class="btn gold" onclick="reset()">Suffle</button>
+          </div>
+        </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>

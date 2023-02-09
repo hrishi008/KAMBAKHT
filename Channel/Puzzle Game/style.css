@@ -1,0 +1,76 @@
+.text-gold {
+  color: #dda937;
+}
+.bgcolor {
+  background-color: lightgray;
+  background-image: url("https://us.123rf.com/450wm/jes2ufoto/jes2ufoto1607/jes2ufoto160700074/60872155-simple-black-gradient-abstract-background-for-product-or-text-backdrop-design.jpg?ver=6");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shadow-light {
+  box-shadow: 0 0 10px #000000;
+}
+.noborder {
+  border: none !important;
+}
+.gold {
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  color: black;
+}
+.black {
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fe3737 0%,
+      #fd3131 8%,
+      #9f2828 30%,
+      #8a2f2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffacac 8%,
+      #d16464 25%,
+      #5d1f1f 62.5%,
+      #5d1f1f 100%
+    );
+  color: black;
+}
+.silver {
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #37d0fe 0%,
+      #31fdec 8%,
+      #289d9f 30%,
+      #2f8a8a 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #acfffb 8%,
+      #64d1cd 25%,
+      #1f595d 62.5%,
+      #1f505d 100%
+    );
+  color: black;
+}
+.piece {
+  height: 100px;
+  width: 100px;
+}
