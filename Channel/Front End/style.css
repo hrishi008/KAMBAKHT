@@ -1,63 +1,68 @@
-.body{
-    background-color: #6B4F4F;
+.body {
+  background-color: #6b4f4f;
 }
-.neg-margin-1{
-    margin-left:-12px!important;
-    background-color:#EED6C4!important;
+.neg-margin-1 {
+  margin-left: -12px !important;
+  background-color: #eed6c4 !important;
 }
-.bg-nav{
-    background-color: #FFF3E4;
+.bg-nav {
+  background-color: #fff3e4;
 }
-.text-paltet{
-    color: #483434;
+.text-paltet {
+  color: #483434;
 }
-.btn-outline-pallet{
-    border: 1px solid #6B4F4F;
-    background-color: #EED6C4;
+.btn-outline-pallet {
+  border: 1px solid #6b4f4f;
+  background-color: #eed6c4;
 }
-.body-height{
-    height: 12000px;
-
+.body-height {
+  height: 2000px;
 }
-.bg-fix{
-    position: sticky;
-    top: 0px;
-    height: 600px;
+.bg-fix {
+  position: sticky;
+  top: 0px;
+  height: 600px;
 }
-.page-design{
-    background-image: linear-gradient(to right,#483434,#2c1f1f, #483434 );
+.page-design {
+  background-image: linear-gradient(to right, #483434, #2c1f1f, #483434);
 }
-.pointer{
-    cursor: pointer;
+.pointer {
+  cursor: pointer;
 }
-.pointer-2{
-    cursor: pointer;
-    padding:5px 46px;
-
+.pointer-2 {
+  cursor: pointer;
+  padding: 5px 46px;
 }
-.pointer-2:hover{
-    
-    box-shadow: 0 0 10px black;
-    border-radius: 20px;
+.pointer-2:hover {
+  box-shadow: 0 0 10px black;
+  border-radius: 20px;
 }
-.pannel-text{
-    font-size: 15px;
-    font-weight: 500;
+.pannel-text {
+  font-size: 15px;
+  font-weight: 500;
 }
-.bg-darkest{
-    background-color: #483434!important;
+.bg-darkest {
+  background-color: #483434 !important;
 }
-.text-smoothest{
-    color: #FFF3E4;
+.text-smoothest {
+  color: #fff3e4;
 }
 
-#underConstruction{
-    position: absolute;
-    background-color: #2c1f1f;
-    height: 1000px;
-    padding-top: 150px;
+#underConstruction {
+  position: absolute;
+  background-color: #2c1f1f;
+  height: 1000px;
+  padding-top: 150px;
+}
+.font-lg {
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  margin-top: 2rem;
+}
+.menubtn {
+  border-radius: 10px;
+  padding: 4px;
+  animation: toggle 1s linear0;
 }
 
-  
-  /* The element to apply the animation to */
-
+/* The element to apply the animation to */ ;
