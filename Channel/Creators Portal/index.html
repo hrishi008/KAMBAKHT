@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="tabs">
+          <button class="navTab active" data-toggle="login">Short</button>
+          <button class="navTab" data-toggle="register">Video</button>
+        </div>
+        <div class="contentWrapper">
+          <div class="content active" id="login">
+              <div class="formGroup">
+                <label for="email">Title</label>
+                <input
+                  type="text"
+                  id="email2"
+                  placeholder="Enter Title"
+                  required
+                />
+                <br>
+                <label for="password2">Link</label>
+                <input
+                  type="text"
+                  id="password2"
+                  placeholder="Link"
+                  required
+                />
+                <small class="messageHelp">Password incorrect</small>
+                <div>
+                  <input type="checkbox" id="checkBox" />
+                  <span>ready to post</span>
+                </div>
+                <p onclick="cleanData()" class="passwordReset">Clean DataBase</p>
+                <button class="btn" onclick="setData()">Post</button>
+              </div>
+          </div>
+          <div class="content" id="register">
+              <div class="formGroup">
+                <label for="email">Title</label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Enter Title"
+                  required
+                />
+                <br>
+                <label for="password">Link</label>
+                <input
+                  type="text"
+                  id="password"
+                  placeholder="Link"
+                  required
+                />
+                <small class="messageHelp">Password incorrect</small>
+                <div>
+                  <input type="checkbox" id="checkBox" />
+                  <span>ready to post</span>
+                </div>
+                <p onclick="cleanData()" class="passwordReset">Clean DataBase</p>
+                <button class="btn" onclick="setData2()">Post</button>
+              </div>
+          </div>
+        </div>
+      </div>
+  
+  
+ 
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
