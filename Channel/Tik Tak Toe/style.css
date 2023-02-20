@@ -1,0 +1,13 @@
+.box{
+    height: 7vw;
+    background-color: red;
+
+    font-size: 30px;
+}
+.box2{
+   height: 5vw;
+   margin: 1vw;
+}
+.mt-decide{
+    margin-top: 12vw!important;
+}
